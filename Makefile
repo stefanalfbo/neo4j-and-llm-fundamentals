@@ -22,3 +22,6 @@ run-chat: ## Run the LLM chat example.
 
 run-storing-history: ## Run the LLM storing history example.
 	python storing_history.py
+
+run-agent: ## Run the LLM agent example.
+	python agent.py
