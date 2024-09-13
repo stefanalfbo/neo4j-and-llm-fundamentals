@@ -1,12 +1,11 @@
 import os
 
 from dotenv import load_dotenv
-
+from langchain.schema import StrOutputParser
 from langchain_community.chat_message_histories import ChatMessageHistory
-from langchain_openai import ChatOpenAI
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_core.runnables.history import RunnableWithMessageHistory
-from langchain.schema import StrOutputParser
+from langchain_openai import ChatOpenAI
 
 load_dotenv()
 

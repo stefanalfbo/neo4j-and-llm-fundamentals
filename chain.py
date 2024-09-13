@@ -1,9 +1,9 @@
 import os
 
 from dotenv import load_dotenv
+from langchain.output_parsers.json import SimpleJsonOutputParser
 from langchain.prompts import PromptTemplate
 from langchain_openai import OpenAI
-from langchain.output_parsers.json import SimpleJsonOutputParser
 
 load_dotenv()
 
