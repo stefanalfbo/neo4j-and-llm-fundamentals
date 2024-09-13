@@ -10,7 +10,10 @@ format: ## Format the code with the Ruff tool.
 
 lint: ## Lint the code with the Ruff tool.
 	ruff check
-	
+
+isort: ## Sort the imports with the Ruff tool.
+	ruff check --select I --fix .
+
 run-chain: ## Run the LLM chain example.
 	python chain.py
 
