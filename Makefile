@@ -19,3 +19,6 @@ run-chain: ## Run the LLM chain example.
 
 run-chat: ## Run the LLM chat example.
 	python chat.py
+
+run-storing-history: ## Run the LLM storing history example.
+	python storing_history.py
