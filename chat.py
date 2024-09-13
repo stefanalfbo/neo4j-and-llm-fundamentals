@@ -58,12 +58,8 @@ while True:
         {
             "context": current_weather,
             "question": question,
-            
-        }, 
-        config={
-            "configurable": {"session_id": "none"}
-        }
+        },
+        config={"configurable": {"session_id": "none"}},
     )
-    
+
     print(response)
-    
