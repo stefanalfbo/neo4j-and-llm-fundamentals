@@ -31,3 +31,6 @@ run-retriever: ## Run the LLM retriever example.
 
 run-movie-expert: ## Run the LLM movie expert example.
 	python movie_expert.py
+
+run-cypher-chain: ## Run the LLM Cypher chain example.
+	python cypher_chain.py
