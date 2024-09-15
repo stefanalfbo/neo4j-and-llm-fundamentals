@@ -25,3 +25,9 @@ run-storing-history: ## Run the LLM storing history example.
 
 run-agent: ## Run the LLM agent example.
 	python agent.py
+
+run-retriever: ## Run the LLM retriever example.
+	python retriever.py
+
+run-movie-expert: ## Run the LLM movie expert example.
+	python movie_expert.py
